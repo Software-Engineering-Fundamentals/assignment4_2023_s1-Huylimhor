@@ -37,7 +37,7 @@ public class Student {
     public double getMarks() {
         return marks;
     }
-
+    
     public String getDepartment() {
         return department;
     }
@@ -49,8 +49,5 @@ public class Student {
     public void setNumberOfCourses(int numberOfCourses) {
         this.numberOfCourses = numberOfCourses;
     }
-
-
-    
 
 }
