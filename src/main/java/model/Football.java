@@ -35,6 +35,9 @@ public class Football {
      */
     private List<Student> team = new ArrayList<Student>();
 
+    //name
+    private String name;
+
 
     public String getGame() {
         return name;
@@ -72,8 +75,4 @@ public class Football {
 	public void addAvailStudent(Student snew) {
         avail.add(snew);
     }
-
-
-
-
 }
