@@ -1,11 +1,12 @@
 package model;
-
 import java.util.ArrayList;
 import java.util.List;
+
 
 /**
  * Employee in an organisation
  */
+
 public class Employee {
     
     private String n1;
@@ -27,7 +28,6 @@ public class Employee {
         this.n1 = n1;
     }
 
-    
     public void assignProjects(int ID,  string p) {
         this.ID = id;
 	   for (int i = 0; i < e1.length; i++) {
@@ -42,11 +42,8 @@ public class Employee {
 	    }
     }
 
-    
-
     public void assignNewProjects(int ID,  string p) {
         this.p1.add(p);
     }
-
-
+    
 }
